@@ -157,7 +157,7 @@ function checkgameover() {
 function displaygameover() {
     ctx.font="cursive";
     ctx.fillStyle="red";
-    ctx.fillText("Paila tilin :( presione espacio" ,gamewidth /2 ,gameheight /2);
+    ctx.fillText("PERDISTE:( Presione espacio" ,gamewidth /2 ,gameheight /2);
     running=false
 }
 
